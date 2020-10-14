@@ -1,7 +1,33 @@
-body{
-  margin-top:70px;
-  font-size:16px;
+body {
+  margin-top:90px;
 }
+.navbar{
+  box-shadow: 1px 1px 1px gray ;
+  background:black;
+  opacity: 0.8;
+  color:white;
+
+}
+.nav-item:last-child{
+  padding-right: 0px !important;
+  font-size: small;
+  color: #000;
+}
+.nav-link{
+  font-size: small;
+  color:white;
+}
+.nav-link:hover{
+  color:gray;
+}
+.navbar-brand:hover{
+  color:gray;
+
+}
+.site-header .navbar-nav{
+  color:white;
+}
+
 
 h1,h2,h3,h4,h5,h6{
   font-family:Poppins;
@@ -11,19 +37,6 @@ p{
   font-family:Roboto;
 }
 
-.navbar-default{
-  background:#fff;
-  border:2;
-  font-family:Poppins;
-  font-size: 15px !important;
-}
-
-.navbar-brand{
-  font-size:20px;
-  color:#000 !important;
-  font-weight:bold;
-  font-size: 15px !important;
-}
 
 #showcase h1{
   font-size:50px;
@@ -32,14 +45,14 @@ p{
 
 #showcase img{
   width:90%;
-  margin-left:60px;
+  margin-left:40px;
 }
 
 #showcase{
   margin-top:90px;
 }
 .showcase-right{
-  margin-top:90px;
+  margin-top:80px;
 
 }
 
@@ -50,7 +63,7 @@ p{
   margin-top:30px;
 }
 #research h1{
-  margin-top:0px;
+  margin-top:10px;
 }
 
 #research p{
@@ -68,74 +81,43 @@ p{
 }
 
 #info1{
-  margin-top:20px;
+  margin:20px 0 60px 0;
 
 }
+
 ul.pub {
   list-style-type: square;
 }
 .publi{
-  margin-top: 50px;
-  margin-bottom: 40px !important;
+  margin-bottom: 40px;
 }
 #info2{
   background:#f1f1f1;
   margin:20px 0 60px 0;
 }
-.conference{
-  margin-top: 50px;
-  margin-bottom: 40px !important;
-}
+
 
 #technical{
   color:#000;
  
 }
-.tech{
-  margin-top: 50px;
-  margin-bottom: 40px !important;
-}
+
 #workshop{
   background:#f1f1f1;
   margin:20px 0 60px 0;
 }
-.work{
-  margin-top: 50px;
-}
-.certi{
-  margin-top: 50px;
-  margin-bottom: 40px !important;
-}
-.card{
-  border:2;
-}
-.photo{
-  border: 1px solid #000;
-  border-radius: 4px;
-  padding: 5px;
-  width: 250px;
-  height: 170px;
-  margin-bottom: 100px;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  box-shadow: 1px 2px #000;
-}
-.picture{
-  margin-bottom: 100px !important;
- 
-}
-.mypicture{
-  margin-bottom: 20px !important;
-  margin-left: 15px;
-}
 
-.inner img{
-  transition: all 1.2s ease;
-  
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
 }
-.inner:hover img{
-  transform:scale(1.1)
+.my-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: 300px !important;
+  margin-bottom: 50px;
 }
 #about{
   background:#f1f1f1;
@@ -167,7 +149,7 @@ footer{
   margin:10px;
   line-height: 67px;
   box-shadow: 3px #dcdde1;
-  margin-bottom: 60px !important;
+  margin-bottom: 50px !important;
 }
 .icon i{
   transition: all 0.3s linear;
@@ -184,9 +166,9 @@ footer{
   font-size: 30px;
   border-radius: 50px;
   margin:10px;
-  line-height: 60px;
+  line-height: 52px;
   box-shadow: 3px #dcdde1;
-  margin-bottom: 60px !important;
+  margin-bottom: 50px !important;
 }
 .myicon i{
   transition: all 0.3s linear;
