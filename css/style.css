@@ -15,12 +15,14 @@ p{
   background:#fff;
   border:2;
   font-family:Poppins;
+  font-size: 15px;
 }
 
 .navbar-brand{
   font-size:20px;
   color:#000 !important;
   font-weight:bold;
+  font-size: 15px;
 }
 
 #showcase h1{
