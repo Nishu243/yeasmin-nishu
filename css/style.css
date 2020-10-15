@@ -11,13 +11,13 @@ body {
 
 .impact{
   font-family: Helvetica,sans-serif;
-  font-size: 17px;
+  font-size: 16px;
 }
 .navbar-nav{
   color:white;
 }
 .site-header .navbar-nav .nav-link{
-  padding:15px;
+  padding:12px;
   color:white;
  
 }
