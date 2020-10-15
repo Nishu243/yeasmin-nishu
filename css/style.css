@@ -1,29 +1,11 @@
 body {
-  margin-top: 10px;
+  margin-top: 0px;
 }
-.navbar{
-  box-shadow: 1px 1px 1px gray ;
-  background:black;
-  opacity: 0.8;
+.nav-item .nav-link:hover{
   color:white;
 
 }
 
-.impact{
-  font-family: Helvetica,sans-serif;
-  font-size: 17px;
-}
-.navbar-nav{
-  color:white;
-}
-.site-header .navbar-nav .nav-link{
-  padding:14px;
-  color:white;
- 
-}
-.site-header .navbar-nav .nav-link:hover{
-  color:gray;
-}
 .theme-dropdown .dropdown-menu{
   position:static;
   display:block;
