@@ -1,6 +1,9 @@
 body {
   margin-top: 0px;
 }
+.nav-bar{
+  font-size: 15px;
+}
 .nav-item .nav-link:hover{
   color:white;
 
