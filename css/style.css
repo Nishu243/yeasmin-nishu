@@ -1,5 +1,5 @@
 body {
-  margin-top:30px;
+  margin-top: 10px;
 }
 .navbar{
   box-shadow: 1px 1px 1px gray ;
@@ -8,21 +8,27 @@ body {
   color:white;
 
 }
-
-.nav-link{
-  font-size: small;
+.navbar-brand{
+  margin-left: 200px;
+}
+.impact{
+  font-family: Helvetica,sans-serif;
+}
+.navbar-nav{
   color:white;
 }
-.nav-link:hover{
-  color:gray;
-}
-.navbar-brand:hover{
-  color:gray;
-
-}
-.site-header .navbar-nav{
+.site-header .navbar-nav .nav-link{
   color:white;
 }
+.site-header .navbar-nav .nav-link:hover{
+  color:gray;
+}
+.theme-dropdown .dropdown-menu{
+  position:static;
+  display:block;
+  margin-bottom: 20px;
+}
+
 
 
 h1,h2,h3,h4,h5,h6{
@@ -73,6 +79,9 @@ p{
   color:#666;
 }
 .res{
+  margin-bottom: 40px !important;
+}
+.pub{
   margin-bottom: 40px !important;
 }
 
